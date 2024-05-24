@@ -4,7 +4,7 @@ use App\Helpers\Version;
 use Illuminate\Support\Facades\Facade;
 
 return [
-    'name' => env('APP_NAME', 'Cattr'),
+    'name' => env('APP_NAME', 'Stellar'),
     'version' => (string)new Version(),
     'env' => env('APP_ENV', 'local'),
     'debug' => env('APP_DEBUG', false),

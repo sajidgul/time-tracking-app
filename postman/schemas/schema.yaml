@@ -1,12 +1,12 @@
 openapi: 3.1.0
 info:
   version: '3.0.4'
-  title: 'Cattr'
+  title: 'Stellar'
 servers:
   - url: 'http://localhost:8000'
     description: 'Local server served by Artisan'
   - url: 'https://demo.cattr.app/api'
-    description: 'Demo Cattr server'
+    description: 'Demo Stellar server'
 paths:
   /user:
     get:
